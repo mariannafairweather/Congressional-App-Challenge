@@ -1,27 +1,51 @@
-
+@font-face { font-family: 'Patrick Hand';
+ src: url('fonts/Patrick_Hand/PatrickHand-Regular.ttf'); }
+ @keyframes wiggle { 50% { transform: rotate(5deg); } }
 body {
-    background-color: #7bb0ff;
+    background-color: #F7F0E6;
     text-align:center;
     padding:100px;
 }
 .personality_body {
-    background-color: firebrick;
+    background-color:#F7F0E6;
 }
 .button {
     text-decoration: none;
-   background-color: lightpink;
-   color:mediumvioletred;
+   background-color: #B8C6A5;
+   color:#4a4040;
    display: inline-block;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:'Patrick Hand';
    padding: 10px 20px;
    border-radius: 8px;
 }
 
-.h1{
+.h1 {
+    font-family: 'Patrick Hand';
+    color:#453C35 ;
+}
+.h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
-.h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+
+.doodle {
+    width: 130px;
+    height:130px;
+    animation: wiggle 2s infinite;
+    position: absolute;
+    right: 665px;
+    top: 140px;
+}
+
+.layout {
+
+}
+main {
+
+}
+aside {
+
+}
+nav ul{
+    
 }
