@@ -34,18 +34,79 @@ body {
     animation: wiggle 2s infinite;
     position: absolute;
     right: 665px;
-    top: 140px;
+    top: 140px; 
 }
-
+.hearts {
+    width: 130px;
+    height:130px;
+    animation: wiggle 2s infinite;
+    position: absolute;
+    right: 930px;
+    top: 100px; 
+}
 .layout {
+display:flex
 
 }
 main {
-
+flex:1;
+min-height: 200vh;
 }
 aside {
+height: 1000px;
+width:400px;
+background-color:#E8D8C5;
+}
+nav{
+    display: flex;
+    list-style: none;
+    position: fixed;
+    top:0;
+    left:0;
+    gap:30px;
+    width: 100%;
+    background-color: #B8C6A5;
+    padding: 15px;
+    justify-content: center;
+    box-sizing:border-box;
+    transition: opacity 1s;
+}
+
+nav.hidden {
+     opacity: 0;
+     pointer-events: none;
+}
+
+
+.bar {
+    text-decoration: none;
+    color:#453C35;
+     background-color: #B8C6A5;
+   display: inline-block;
+   font-family:'Patrick Hand';
+   padding: 10px 20px;
+   border-radius: 8px;
+}
+
+.question1 {
+    padding:15px;
+      font-family: 'Patrick Hand';
+    color:#453C35 ;
 
 }
-nav ul{
-    
+
+.spring {
+color:#B8C6A5;
+
 }
+
+.summer {
+color:#F1D48B;
+}
+.fall {
+color:#745A52;
+}
+.winter {
+color:#6da7ff;
+}
+
