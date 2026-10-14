@@ -1,11 +1,13 @@
 
-const springBtn = document.getElementById("a0");
+const buttons = document.querySelectorAll("button");
 const answers = []
-console.log(springBtn);
-springBtn.addEventListener("click", () => {
+console.log(buttons);
+buttons.forEach((btn) => {
+btn.addEventListener("click", () => {
  console.log("spring clicked")
  answers.push(0);
  console.log(answers);
+});
 });
 
 
