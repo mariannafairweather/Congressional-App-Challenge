@@ -12,29 +12,34 @@
 
    <h2>Question 1</h2>
    <h3 id = "question1" class="question1">Whats your favorite season?</h3>
-   <button id = "a0" class="spring" data-q="1" data-choice="0"> Spring </button>
-   <button id = "a1" class="summer" data-q="1" data-choice="1"> Summer</button>
-   <button id = "a2" class="fall" data-q="1" data-choice="2"> Fall </button>
-   <button id = "a3" class="winter" data-q="1" data-choice="3"> Winter </button>
+   <button id = "a0" class="spring" data-q="1" data-choice="0" data-senior="0"> Spring </button>
+   <button id = "a1" class="summer" data-q="1" data-choice="1" data-senior="1"> Summer</button>
+   <button id = "a2" class="fall" data-q="1" data-choice="2" data-senior="2"> Fall </button>
+   <button id = "a3" class="winter" data-q="1" data-choice="3" data-senior="3"> Winter </button>
 </div>
 <div hidden id="q2">
    <h2>Question 2</h2>
    <h3 id = "question2" class="question2"> What's your ideal way to spend a free afternoon?</h3>
-   <button id = "a4" class="spring" data-q="2" data-choice="0"> Going out and exploring somewhere new </button>
-   <button id = "a5" class="summer" data-q="2" data-choice="1"> Staying in and watching movies or playing video games</button>
-   <button id = "a6" class="fall" data-q="2" data-choice="2"> Hanging out with friends</button>
-   <button id = "a7" class="winter" data-q="2" data-choice="3"> Doing something creative or working on a hobby </button>
+   <button id = "a4" class="spring" data-q="2" data-choice="0" data-senior="1"> Going out and exploring somewhere new </button>
+   <button id = "a5" class="summer" data-q="2" data-choice="1" data-senior="2"> Staying in and watching movies or playing video games</button>
+   <button id = "a6" class="fall" data-q="2" data-choice="2" data-senior="3"> Hanging out with friends</button>
+   <button id = "a7" class="winter" data-q="2" data-choice="3" data-senior="0"> Doing something creative or working on a hobby </button>
 </div>
 <div hidden id="q3">
    <h2>Question 3</h2>
-   <h3 id = "question3" class="question3">How would your friends describe you?</h3>
-   <button id = "a8" class="outgoing" data-q="3" data-choice="0"> Outgoing and talkative</button>
-   <button id = "a9" class="quiet" data-q="3" data-choice="1"> Quiet at first, but funny once comfortable </button>
-   <button id = "a10" class="kind" data-q="3" data-choice="2"> Kind, supportive, and a good listener</button>
-   <button id = "a11" class="random" data-q="3" data-choice="3"> Random, energetic, and a little chaotic</button>
+   <h3 id = "question3" class="question2">How would your friends describe you?</h3>
+   <button id = "a8" class="spring" data-q="3" data-choice="0" data-senior="1"> Outgoing and talkative</button>
+   <button id = "a9" class="summer" data-q="3" data-choice="1" data-senior="2"> Quiet at first, but funny once comfortable </button>
+   <button id = "a10" class="fall" data-q="3" data-choice="2" data-senior="0"> Kind, supportive, and a good listener</button>
+   <button id = "a11" class="winter" data-q="3" data-choice="3" data-senior="3"> Random, energetic, and a little chaotic</button>
 </div>
-<div hidden id="results"><p>Your senior match is</p></div>
-
+<div class ="match" hidden id="results"><p>Your senior match is</p>
+<img id="match-pfp"class="pfp" alt="your senior match">
+<h2 id="match-name"></h2>
+<p id="match-bio"></p>
+<p id="match-contact"></p>
+<img class="flower" src="images/flower.png" alt="flower drawing">
+</div>
 <script src="quiz.js"></script>
 </body>
 </html>

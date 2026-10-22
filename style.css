@@ -2,12 +2,15 @@
  src: url('fonts/Patrick_Hand/PatrickHand-Regular.ttf'); }
  @keyframes wiggle { 50% { transform: rotate(5deg); } }
 body {
-    background-color: #F7F0E6;
     text-align:center;
     padding:100px;
+    background: linear-gradient(180deg, #F7F0E6 0%, #E8D8C5 100%);
+    min-height: 100vh;
+    background-attachment: fixed;
+
 }
 .personality_body {
-    background-color:#F7F0E6;
+
 }
 .button {
     text-decoration: none;
@@ -17,6 +20,9 @@ body {
    font-family:'Patrick Hand';
    padding: 10px 20px;
    border-radius: 8px;
+}
+.match { 
+    font-family:'Finger Paint' ;
 }
 
 .h1 {
@@ -135,4 +141,17 @@ color:#745A52;
 }
 .winter {
 color:#6da7ff;
+}
+.pfp {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.flower {
+    width:250px;
+    height:250px;
+    position: absolute;
+    right: 930px;
+    top: 120px; 
 }

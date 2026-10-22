@@ -1,5 +1,5 @@
 On the homepage this described as an app to help freshman and more nervous insecure kids, make them feel more comfortable moving into new schools and help them make new senior friends, based for rural schools with not a lot of connections, mainly focused on girls and lgbtq, it will talk about mental health and the improtance of mental health in highschool and will have research stats about mental health on the app
-
+have a percentage of compatibility
 Itll ask you what grade your in and you’ll see a different thing depending on that
 Freshman
 Take a personality quiz to match up
