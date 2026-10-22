@@ -9,3 +9,5 @@ Series of questions
 Finish your profile by adding your number pfp and little description
 At the end of the quiz it will match you with one of 3 predefined seniors and say why youre beign matched with them,
 it will show a description pfp and way to contact them
+
+(The Trevor Project, 2024 U.S. National Survey, 18,000+ respondents) for quote 1

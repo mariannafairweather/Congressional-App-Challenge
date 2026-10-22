@@ -27,6 +27,19 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
+.quote {
+    font-family:'Indie Flower';
+    color: black;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 20px auto;
+    padding-top: 10px;
+
+}
+.rainbow { background: linear-gradient(90deg, red, orange, gold, green, blue, purple);
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent; 
+}
 
 .doodle {
     width: 130px;
@@ -94,7 +107,21 @@ nav.hidden {
     color:#453C35 ;
 
 }
+.question2 {
+    padding:15px;
+      font-family: 'Patrick Hand';
+    color:#453C35 ;
 
+}
+
+button { font-family: 'Patrick Hand'; font-size: 20px;
+          background: none;
+          border: none;
+          cursor: pointer;
+          display: block;
+          margin: 10px auto;
+          padding-top: 15px;
+       }
 .spring {
 color:#B8C6A5;
 
@@ -109,4 +136,3 @@ color:#745A52;
 .winter {
 color:#6da7ff;
 }
-
