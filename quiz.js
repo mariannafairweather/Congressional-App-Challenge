@@ -4,8 +4,8 @@ const answers = []
 console.log(buttons);
 buttons.forEach((btn) => {
 btn.addEventListener("click", () => {
- console.log("spring clicked")
- answers.push(0);
+ console.log("clicked")
+ answers.push(btn.dataset.choice);
  console.log(answers);
 });
 });
