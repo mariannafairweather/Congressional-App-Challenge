@@ -4,14 +4,11 @@
 body {
     text-align:center;
     padding:100px;
-    background: linear-gradient(180deg, #F7F0E6 0%, #E8D8C5 100%);
+    background-color: #F7F0E6;
     min-height: 100vh;
-    background-attachment: fixed;
 
 }
-.personality_body {
 
-}
 .button {
     text-decoration: none;
    background-color: #B8C6A5;

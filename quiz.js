@@ -3,10 +3,10 @@ const buttons = document.querySelectorAll("button");
 const answers = []
 const scores = [0, 0, 0,0];
 const questionColors = [
-    {name: "q1", color:"linear-gradient(180deg, #F7F0E6, #fbc9c9ff)"},
-    {name: "q2", color:"linear-gradient(180deg, #F7F0E6, #cbc9fbff)"},
-    {name: "q3", color:"linear-gradient(180deg, #F7F0E6, #fbc9c9ff)"},
-    {name: "q4", color:"linear-gradient(180deg, #F7F0E6, #a2ffecff)"},
+    {name: "q1", color:"linear-gradient(180deg, #F7F0E6, #effdffff)"},
+    {name: "q2", color:"linear-gradient(180deg, #F7F0E6, #d5faffff)"},
+    {name: "q3", color:"linear-gradient(180deg, #F7F0E6, #9df4ffff)"},
+    {name: "q4", color:"linear-gradient(180deg, #F7F0E6, #7cf0ffff)"},
 ];
     
 const seniors = [
@@ -22,7 +22,7 @@ buttons.forEach((btn) => {
         answers.push(btn.dataset.choice);
         scores[btn.dataset.senior]++;
         console.log(scores);
-        questionColors[answers.length]
+        document.body.style.background = questionColors[answers.length].color;
         if (answers.length === 3) { const winner = scores.indexOf(Math.max(...scores));
             document.body.style.background = seniors[winner].color;
             document.getElementById("match-pfp").src = seniors[winner].pfp; 
