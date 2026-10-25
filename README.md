@@ -7,7 +7,10 @@ Take a personality quiz to match up
 Look really cutesy and friendly light warm colors
 Series of questions
 Finish your profile by adding your number pfp and little description
+i want to make the cahat system isntead oif giving out real information to protect everyone using the app. 
+snd i want their profiles to look nice with pronouns added too
 At the end of the quiz it will match you with one of 3 predefined seniors and say why youre beign matched with them,
 it will show a description pfp and way to contact them
+when youre matched with a senior yoiure able to chat with them on the app and acsess it on the homepage
 
 (The Trevor Project, 2024 U.S. National Survey, 18,000+ respondents) for quote 1

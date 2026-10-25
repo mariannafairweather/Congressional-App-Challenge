@@ -6,11 +6,11 @@ body {
     padding:100px;
     background-color: #F7F0E6;
     min-height: 100vh;
-
+background:linear-gradient(180deg, #F7F0E6, rgb(255, 225, 253));
 }
 
 .button {
-    text-decoration: none;
+   text-decoration: none;
    background-color: #B8C6A5;
    color:#4a4040;
    display: inline-block;
@@ -64,6 +64,7 @@ body {
 .card:hover { transform: scale(1.02); }
 .card2:hover { transform: scale(1.02); }
 .button:hover { transform: scale(1.02); }
+.aside:hover { transform: scale(1.02); }
 
 .rainbow { background: linear-gradient(90deg, red, orange, gold, green, blue, purple);
   -webkit-background-clip: text; background-clip: text;
@@ -87,14 +88,7 @@ body {
     right: 930px;
     top: 100px; 
 }
-.flag {
-    width:300px;
-    height:80px;
-    position:fixed;
-    top:56px;
-    left:82.5%;
-    transform:translateX(-50%);
-}
+
 .layout {
 display:flex
 
@@ -102,12 +96,15 @@ display:flex
 main {
 flex:1;
 min-height: 200vh;
-background:linear-gradient(180deg, #F7F0E6, rgb(255, 225, 253));
+
 }
 aside {
 height: 1000px;
 width:400px;
 background-color:#E8D8C5;
+box-shadow: 0 4px 20px rgba(69, 60, 53, 0.1);
+margin-top: 20px auto;
+transition: transform 0.3s;
 }
 nav{
     display: flex;
@@ -181,13 +178,7 @@ color:#6da7ff;
     border-radius: 50%;
     object-fit: cover;
 }
-.flower {
-    width:250px;
-    height:250px;
-    position: absolute;
-    right: 930px;
-    top: 120px; 
-}
+
 .mission {
     font-family:'Indie Flower';
     font-size: 20px;
@@ -197,4 +188,16 @@ color:#6da7ff;
     margin: 100px auto;
     padding-top: 15px;
     color:#453C35;
+}
+.contact {
+ text-decoration: none;
+   background-color: #B8C6A5;
+   color:#4a4040;
+   display: inline-block;
+   font-family:'Patrick Hand';
+   padding: 10px 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 20px rgba(69, 60, 53, 0.1);
+   margin-top:50px;
+   padding-top: 30px;
 }
