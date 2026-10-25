@@ -8,7 +8,7 @@ Look really cutesy and friendly light warm colors
 Series of questions
 Finish your profile by adding your number pfp and little description
 i want to make the cahat system isntead oif giving out real information to protect everyone using the app. 
-snd i want their profiles to look nice with pronouns added too
+snd i want their profiles to look nice with pronouns added too, and it looks pintertest messages 
 At the end of the quiz it will match you with one of 3 predefined seniors and say why youre beign matched with them,
 it will show a description pfp and way to contact them
 when youre matched with a senior yoiure able to chat with them on the app and acsess it on the homepage

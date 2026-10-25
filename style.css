@@ -65,6 +65,7 @@ background:linear-gradient(180deg, #F7F0E6, rgb(255, 225, 253));
 .card2:hover { transform: scale(1.02); }
 .button:hover { transform: scale(1.02); }
 .aside:hover { transform: scale(1.02); }
+.chat-bar:hover { transform: scale(1.02); }
 
 .rainbow { background: linear-gradient(90deg, red, orange, gold, green, blue, purple);
   -webkit-background-clip: text; background-clip: text;
@@ -200,4 +201,31 @@ color:#6da7ff;
    box-shadow: 0 4px 20px rgba(69, 60, 53, 0.1);
    margin-top:50px;
    padding-top: 30px;
+}
+
+.my-bubble {
+    border-radius: 30px;
+    background-color:#F7F0E6;
+    max-width: max-content;
+    margin-left:auto;
+    display:block;
+    width: fit-content;
+}
+
+.chat-bar{
+   padding-top:100px;
+    background-color:#F7F0E6;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(69, 60, 53, 0.1);
+    margin: auto;
+    max-width:500px;
+    transition: transform 0.3s;
+    background:linear-gradient(180deg, #F7F0E6, rgb(244, 250, 255));
+    display: flex;
+    align-items: center;
+}
+.messages {
+    height:400px;
+    overflow-y: auto;
 }
