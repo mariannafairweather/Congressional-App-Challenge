@@ -10,13 +10,19 @@
 <body>
     <div class="chat-header">
          <img class="pfp" id="chat-pfp">
+         <select id="role">
+            <option value="freshman">Freshman</option>
+            <option value="senior">Senior</option>
+         </select>
     <h2 id="chat-name"></h2>
     </div>
+    <div class="chat-box">
     <div id="messages"></div>
  <div class="chat-bar">
     <input id ="message-input" placeholder="Say hi!">
 
-      <button id="send-btn">Send</button>
+      <button class="send-btn"id="send-btn">Send</button>
+      </div>
       </div>
 <script src="seniors.js"></script>
 <script src="chat.js"></script>
