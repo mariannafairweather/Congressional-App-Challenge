@@ -28,3 +28,4 @@ showMessages();
 }
 showMessages();
 role.addEventListener("change", showMessages);
+window.addEventListener("storage", showMessages);
