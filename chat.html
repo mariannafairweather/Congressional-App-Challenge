@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>chat.html</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
  <link rel="stylesheet" href="style.css">
     </head>
 <body>
-<div id="messages">
-    <input id="">
-    <button></button>
-</div>
+    <div class="chat-header">
+         <img class="pfp" id="chat-pfp">
+    <h2 id="chat-name"></h2>
+    </div>
+    <div id="messages"></div>
+ <div class="chat-bar">
+    <input id ="message-input" placeholder="Say hi!">
 
+      <button id="send-btn">Send</button>
+      </div>
 <script src="chat.js"></script>
 </body>
 </html>
