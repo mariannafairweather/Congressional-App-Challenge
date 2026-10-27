@@ -28,7 +28,7 @@ showMessages();
              else { bubble.classList.add("their-bubble"); }
 
         bubble.textContent = msg.text
-        messages.appendChild(bubble);w
+        messages.appendChild(bubble);
 messages.scrollTop = messages.scrollHeight
     });
 }
