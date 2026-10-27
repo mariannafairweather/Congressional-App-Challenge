@@ -2,19 +2,25 @@ const match = localStorage.getItem("match");
 const input = document.getElementById("message-input");
 const sendBtn = document.getElementById("send-btn");
 const messages = document.getElementById("messages");
-document.getElementById("chat-pfp").src = seniors[match].pfp;
-document.getElementById("chat-name").textContent = seniors[match].name;
+const params = new URLSearchParams(window.location.search);
+const seniorNum = params.get("senior") || match;
+const chatKey = "chat-" + seniorNum;
+      if (params.get("role")) { role.value = params.get("role"); role.hidden = true; }
+document.getElementById("chat-pfp").src = seniors[seniorNum].pfp;
+document.getElementById("chat-name").textContent = seniors[seniorNum].name;
 sendBtn.addEventListener("click", () => {
         console.log("clicked")
-        const chat = JSON.parse(localStorage.getItem("chat")) || [];
+        const chat = JSON.parse(localStorage.getItem(chatKey)) || [];
+        if (input.value === "") return;
     chat.push({ from: role.value, text: input.value });
-localStorage.setItem("chat", JSON.stringify(chat));
+
+localStorage.setItem(chatKey, JSON.stringify(chat));
 showMessages();
         input.value = ""
     });
     function showMessages() {
         messages.innerHTML = "";
-        const chat = JSON.parse(localStorage.getItem("chat")) || [];
+        const chat = JSON.parse(localStorage.getItem(chatKey)) || [];
         console.log(chat);
         chat.forEach((msg) => {
              const bubble = document.createElement("div");
@@ -22,8 +28,8 @@ showMessages();
              else { bubble.classList.add("their-bubble"); }
 
         bubble.textContent = msg.text
-        messages.appendChild(bubble);
-
+        messages.appendChild(bubble);w
+messages.scrollTop = messages.scrollHeight
     });
 }
 showMessages();

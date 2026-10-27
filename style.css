@@ -18,6 +18,20 @@ background:linear-gradient(180deg, #F7F0E6, rgb(255, 225, 253));
    padding: 10px 20px;
    border-radius: 8px;
    box-shadow: 0 4px 20px rgba(69, 60, 53, 0.1);
+   text-align:center;
+
+}
+.button2 {
+   text-decoration: none;
+   background-color: #B8C6A5;
+   color:#4a4040;
+   display: inline-block;
+   font-family:'Patrick Hand';
+   padding: 10px 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 20px rgba(69, 60, 53, 0.1);
+   text-align:center;
+    width: 80px;
 }
 .match { 
     font-family:'Finger Paint' ;
@@ -76,7 +90,7 @@ background:linear-gradient(180deg, #F7F0E6, rgb(255, 225, 253));
     height:130px;
     animation: wiggle 2s infinite;
     position: absolute;
-    right: 665px;
+    right: 616px;
     top: 140px; 
     color:pink;
 }
@@ -85,7 +99,7 @@ background:linear-gradient(180deg, #F7F0E6, rgb(255, 225, 253));
     height:130px;
     animation: wiggle 2s infinite;
     position: absolute;
-    right: 930px;
+    right: 940px;
     top: 100px; 
 }
 
@@ -256,4 +270,15 @@ color:#6da7ff;
 #send-btn {
     border-radius:999px;
    color:#4a4040;
+}
+.heading {
+    text-align:center;
+    font-family:'Patrick Hand';
+}
+.senior-list {
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:30px;
 }
